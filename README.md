@@ -6,68 +6,88 @@
 
 ## 📌 Project Overview
 
-The **Mercedes-Benz Business Performance Dashboard** is an interactive data analytics project built using Microsoft Power BI to explore the company's financial performance and geographical vehicle sales from 2022 to 2025.
+The **Mercedes-Benz Business Performance Dashboard** is an interactive business intelligence project developed using Microsoft Power BI to analyze Mercedes-Benz's financial performance and geographical vehicle sales from 2022 to 2025.
 
-The dashboard presents key business metrics, annual trends, quarterly profitability, research and development expenditure, and geographical sales in a consolidated visual report.
+The dashboard provides insights into key financial indicators, annual revenue trends, quarterly profitability, research and development expenditure, and global vehicle sales through interactive visualizations.
+
+It features a premium **Gold & Black dashboard theme** inspired by Mercedes-Benz's luxury brand identity.
 
 ## 🎯 Project Objectives
 
 - 📊 Analyze annual revenue and net profit.
 - 📈 Track EBIT trends across 2022–2025.
-- 🚗 Explore vehicle sales across geographical regions.
-- 🔬 Monitor research and development expenditure.
-- 📅 Compare quarterly net profit across different years.
-- 🎛️ Enable interactive exploration using Year and Region slicers.
+- 🚗 Explore geographical vehicle sales across different regions.
+- 🔬 Analyze research and development expenditure.
+- 📅 Compare quarterly net profit across multiple years.
+- 🎛️ Enable interactive data exploration using Year and Region slicers.
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI** — Dashboard development and visualization
-- **Power Query** — Data preparation and transformation, where applicable
-- **DAX** — Measures and calculations, where applicable
-- **Official Mercedes-Benz Group publications** — Reference sources for business and sales information
+- **Microsoft Power BI** — Dashboard development and visualization.
+- **Power Query** — Data preparation and transformation, where applicable.
+- **DAX** — Measures and calculations, where applicable.
+- **Mercedes-Benz Group Publications** — Reference sources for financial and vehicle sales information.
 
 ## 📊 Dashboard Highlights
 
 ### 💰 Key Performance Indicators (KPIs)
+
 - Total Revenue
 - Net Profit
 - Total Vehicles Sold
 - Revenue Year-over-Year (YoY) Growth
 
 ### 📈 Business Visualizations
+
 - Annual Revenue (2022–2025)
 - Global Vehicle Sales by Country
-- R&D Expenditure by Year
-- Quarterly Net Profit
+- R&D Expenditure Share by Year (Donut Chart)
+- Quarterly Net Profit Comparison
 - EBIT Trend (2022–2025)
 
 ### 🎛️ Interactive Features
-- Year slicer for filtering the reporting period
-- Region slicer for exploring geographical sales
-- Interactive charts and map visualizations
+
+- Year slicer for filtering the reporting period.
+- Region slicer for exploring geographical sales.
+- Interactive charts and map visualizations.
+- Dynamic KPI calculations based on report filters.
 
 ## 🖼️ Dashboard Preview
 
-### Main Dashboard
+### 🚘 Main Dashboard
 
 ![Mercedes-Benz Business Performance Dashboard](screenshots/dashboard.png)
 
-### Data Sources & Methodology
+### 📚 Data Sources & Methodology
 
 ![Data Sources and Methodology](screenshots/data-sources.png)
+
+## 🎨 Dashboard Design
+
+The report uses a premium Gold & Black visual theme to create a luxury automotive-inspired dashboard.
+
+- 🖤 Dark background for a professional appearance.
+- 🥇 Gold accents for financial visualizations.
+- 📊 Consistent chart styling and KPI cards.
+- ✨ Clean layout with clear visual hierarchy.
 
 ## 📚 Data Sources
 
 The project references official Mercedes-Benz Group publications.
 
+### 🚗 Vehicle Sales
+
 - [2022 Vehicle Sales](https://group.mercedes-benz.com/company/news/sales-2022.html)
 - [2023 Vehicle Sales](https://group.mercedes-benz.com/company/news/sales-2023.html)
 - [2024 Vehicle Sales](https://group.mercedes-benz.com/company/news/sales-2024.html)
 - [2025 Vehicle Sales](https://group.mercedes-benz.com/company/news/sales-2025.html)
-- [Annual Reports](https://group.mercedes-benz.com/investors/reports-news/annual-reports/)
+
+### 💰 Financial Information
+
+- [Mercedes-Benz Annual Reports](https://group.mercedes-benz.com/investors/reports-news/annual-reports/)
 - [2023 Financial Results](https://group.mercedes-benz.com/results-2023/)
 
-See the [`documentation/`](documentation/) folder for additional details about data sources and methodology.
+See the [`documentation/`](documentation/) folder for additional details about data sources, preparation, methodology, and limitations.
 
 ## 🚀 How to Use
 
@@ -79,10 +99,11 @@ See the [`documentation/`](documentation/) folder for additional details about d
 
 ## ⚠️ Data Notes & Limitations
 
-- The report covers the 2022–2025 period.
-- Financial values and sales figures should be interpreted according to their stated units and reporting definitions.
+- The dashboard covers the 2022–2025 reporting period.
+- Financial values are presented in EUR millions unless otherwise indicated.
+- Financial and sales figures should be interpreted according to their original reporting definitions.
 - Mercedes-Benz's 2022 sales announcement reports customer deliveries, whereas subsequent reporting uses Group sales figures. Geographical figures may therefore not be directly comparable across reporting periods.
-- Refer to the official publications for the original definitions and reported values.
+- Refer to the official publications for original definitions and reported values.
 - Dashboard calculations and figures should be validated against their underlying source data.
 
 ## 🎓 Skills Demonstrated
